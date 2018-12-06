@@ -1,0 +1,21 @@
+/* components/footer/footer.wxss */
+.ul{
+  display:flex;
+  justify-content:space-around;
+  width:100%;
+  padding:12rpx 0;
+  border-top:2px solid #f8f8f8;
+  color:#c7c7c7;
+}
+.li{
+  text-align:center;
+}
+.img{
+  width:70%;
+}
+.li_font{
+  font-size:28rpx;
+}
+.active{
+  color:black;
+}

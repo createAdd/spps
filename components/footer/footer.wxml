@@ -1,0 +1,15 @@
+<!--components/footer/footer.wxml-->
+<view class='ul'>
+  <view class='li' bindtap='active' class="active"> 
+    <image src='images/1.jpg' class='img' mode='widthFix'/>
+    <view class='li_font'>流行</view>
+  </view>
+  <view class='li' bindtap='active'>
+    <image  src="images/2.jpg" class='img'  mode='widthFix'/>
+    <view class='li_font'>书单</view>
+  </view>
+  <view class='li' bindtap='active'>
+    <image  src="images/3.jpg" class='img'  mode='widthFix'/>
+    <view class='li_font'>喜欢</view>
+  </view>
+</view>
