@@ -1,7 +1,6 @@
 <!--pages/ysnn/ysnn.wxml-->
 
 <view class="ysnnhea">
-<text>测试</text>
    <view class="ysnnhea_le">
       <f-month qk="{{datas.index}}"/>
    </view>
