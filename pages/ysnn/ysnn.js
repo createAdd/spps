@@ -14,11 +14,12 @@ Page({
       datas:{}
   },
   likeClick(ev){
-    console.log(ev.detail.behavior)
+    console.log(ev)
     let behavior=ev.detail.behavior
-    let {id,type}=this.data.datas
+    let id = this.data.datas.id
+    let type = this.data.datas.type
     likeMo.like(behavior,id,type)
-    console.log(behavior, id, type)
+    // console.log(behavior, id, type)
   },
   /**
    * 生命周期函数--监听页面加载

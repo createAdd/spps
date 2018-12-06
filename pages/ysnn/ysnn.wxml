@@ -6,7 +6,7 @@
    </view>
    <view class="ysnnhea_ri">
       <view class="ysnnhea_ri1">
-          <f-like count="{{datas.fav_nums}}" likes="{{datas.like_status}}" bind:like="likeClick"/>
+          <f-like count="{{datas.fav_nums}}" likess="{{datas.like_status}}" bind:likes="likeClick"/>
       </view>
       <view class="ysnnhea_ri2">
           <f-fx />

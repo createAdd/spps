@@ -1,7 +1,7 @@
 <!--components/like/likes.wxml-->
 <view>
  <view class="yshearig">
-        <view class="yshearig_1" bindtap='likeclick'>
+        <view class="yshearig_1" bind:tap='likeclick'>
             <image src='{{like?yeslike:nolike}}' class="yshearig_2"> </image>
             <text class="yshearig_3">{{count}}</text>
         </view>

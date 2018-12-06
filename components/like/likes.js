@@ -7,8 +7,8 @@ Component({
     count:{
       type:Number
     },
-    likes: {
-      type: Number,
+    likess: {
+      type: Boolean,
      
       observer(newV, oldV, changedPath) {
         let lic=newV

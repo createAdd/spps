@@ -13,6 +13,9 @@ class LikeModel extends HTTP {
       data:{
         art_id:artId,
         type: caregory
+      },
+      success:res=>{
+
       }
     })
     // return  // return出结果会是空的，因为request是异步函数
