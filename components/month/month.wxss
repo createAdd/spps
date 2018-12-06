@@ -1,0 +1,26 @@
+/* components/month/month.wxss */
+.ysheale{
+    display: flex;
+}
+.ysheale_1{
+  /* display: flex; */
+  /* flex-direction: column */
+  display: block;
+  font-size:23rpx;
+}
+.ysheale_2{
+  display: flex;
+  align-items: center;
+}
+.ysheale_3{
+  font-size:42rpx;
+}
+.ysheale_4{
+  font-size:23rpx;
+  margin-top: 15rpx;
+}
+.ysheale_5{
+  margin:0rpx 15rpx;
+  /* position: relative; */
+  /* display: flex; */
+}

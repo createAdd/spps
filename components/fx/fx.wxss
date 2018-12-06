@@ -1,0 +1,5 @@
+/* components/fx/fx.wxss */
+.yshearig_4{
+  width:32rpx;
+  height:32rpx;
+}

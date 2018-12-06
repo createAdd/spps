@@ -1,0 +1,40 @@
+/* components/ys/zhong/zhong.wxss */
+.yszhong{
+  width:100%;
+  height:500rpx;
+  position: relative;
+}
+image{
+  width:100%;
+  height:100%;
+}
+.yszhong_1{
+  font-size: 50rpx;
+  position: absolute;
+  bottom:08rpx;
+  color:white;
+  left:30rpx;
+}
+.yszhong_2{
+  font-size:  50rpx;
+  position: absolute;
+  left:30rpx;
+  bottom: -64rpx;
+}
+.yszhong_3{
+  font-size:  50rpx;
+  position: absolute;
+  left:55rpx;
+  bottom:-100rpx;
+  
+
+}
+.yszhong_4{
+  width: 630rpx;
+  margin:150rpx auto 0rpx;
+  font-size: 34rpx;
+  color:#494949;
+  
+  /* position: absolute; */
+  /* bottom:-200rpx; */
+}
