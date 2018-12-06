@@ -2,7 +2,7 @@
 <view class="yszhong">
   <image src='{{imgs}}'></image>
   <view  class="yszhong_1">电</view>
-  <view class="yszhong_2">影</view>
+  <view class="yszhong_2">影1111</view>
   <view class="yszhong_3">。</view>
   <view  class="yszhong_4">{{cons}}</view>
 </view>
