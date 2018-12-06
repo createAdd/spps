@@ -7,7 +7,7 @@
   background: #F7F7F7;
   position: absolute;
   left:10%;
-  bottom: 195rpx;
+  bottom: 160rpx;
   z-index: 999;
 }
 .btom .btom-a{

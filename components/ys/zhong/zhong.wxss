@@ -6,6 +6,7 @@
 }
 image{
   width:100%;
+  height:100%;
 }
 .yszhong_1{
   font-size: 50rpx;
@@ -29,9 +30,9 @@ image{
 
 }
 .yszhong_4{
-  width: 630rpx;
+  width: 590rpx;
   margin:150rpx auto 0rpx;
-  font-size: 34rpx;
+  font-size: 32rpx;
   color:#494949;
   
   /* position: absolute; */
