@@ -18,8 +18,10 @@
     <f-zhong cons="{{datas.content}}" imgs="{{datas.image}}"/>
 </view>
 <view>
-    <f-bottoms />
+    <f-bottoms footer="{{datas.title}}"/>
+
 </view>
+
 <view class='footer'>
   <footer/>
 </view>
