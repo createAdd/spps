@@ -9,6 +9,9 @@ Component({
     },
     count: {
       type: Number
+    },
+    footer: {
+      type: String
     }
   },
 

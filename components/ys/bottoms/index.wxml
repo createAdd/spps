@@ -1,6 +1,6 @@
 <!--components/bottoms/index.wxml-->
 <view class='btom'>
    <view class='btom-a' bindtap='post'><image src='./img/post.png'></image></view>
-   <view class='btom-s'>《因为刚好遇见你》</view>
+   <view class='btom-s'>{{footer}}</view>
    <view class='btom-a'><image src='./img/next.png'></image></view>
 </view>
