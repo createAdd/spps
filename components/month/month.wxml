@@ -1,0 +1,17 @@
+<!--components/month/month.wxml-->
+<view>
+  <view  class="ysheale">
+        <view class="ysheale_2">
+            <text class="ysheale_4">NO.</text>
+            <text class="ysheale_3">{{index}}</text>
+            <text class="ysheale_5">|</text>
+        </view> 
+        <view >
+            <text class="ysheale_1">{{month}}</text>
+            <text class="ysheale_1">{{year}}</text>
+        </view>
+    </view>
+    <view>
+      <!-- <f-con /> -->
+    </view> 
+</view>

@@ -1,0 +1,19 @@
+<!--pages/ysnn/ysnn.wxml-->
+
+<view class="ysnnhea">
+   <view class="ysnnhea_le">
+      <f-month qk="{{datas.index}}"/>
+   </view>
+   <view class="ysnnhea_ri">
+      <view class="ysnnhea_ri1">
+          <f-like count="{{datas.fav_nums}}" likes="{{datas.like_status}}" bind:like="likeClick"/>
+      </view>
+      <view class="ysnnhea_ri2">
+          <f-fx />
+      </view>
+   </view>
+  
+</view>
+ <view class="yscon">
+    <f-zhong cons="{{datas.content}}" imgs="{{datas.image}}"/>
+</view>

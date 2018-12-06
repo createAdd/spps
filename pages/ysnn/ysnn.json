@@ -1,0 +1,8 @@
+{
+  "usingComponents":{
+    "f-month":"/components/month/month",
+    "f-like":"/components/like/likes",
+    "f-fx": "/components/fx/fx",
+    "f-zhong": "/components/ys/zhong/zhong"
+  }
+}
