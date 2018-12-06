@@ -17,11 +17,9 @@
  <view class="yscon">
     <f-zhong cons="{{datas.content}}" imgs="{{datas.image}}"/>
 </view>
-<<<<<<< HEAD
-<view class='footer'>
-  <footer/>
-=======
 <view>
     <f-bottoms />
->>>>>>> 6c044d9bb81c0d35f7a41c2ecea5fb72e088f396
+</view>
+<view class='footer'>
+  <footer/>
 </view>

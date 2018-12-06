@@ -2,14 +2,9 @@
   "usingComponents":{
     "f-month":"/components/month/month",
     "f-like":"/components/like/likes",
-<<<<<<< HEAD
     "f-fx": "/components/fx/fx",
     "f-zhong": "/components/ys/zhong/zhong",
-    "footer":"/components/footer/footer"
-=======
-    "f-fx": "/components/fx/fx",  
-    "f-zhong": "/components/ys/zhong/zhong",
+    "footer":"/components/footer/footer",
     "f-bottoms": "/components/ys/bottoms/index"
->>>>>>> 6c044d9bb81c0d35f7a41c2ecea5fb72e088f396
   }
 }
