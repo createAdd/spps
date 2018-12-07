@@ -1,5 +1,5 @@
 <!--pages/love/index.wxml-->
 <view>
   ！pages中 我是“喜欢”视图
-
+  <footer/>
 </view>

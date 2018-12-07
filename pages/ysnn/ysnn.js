@@ -25,6 +25,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    wx.setStorageSync("num", "0")
     index.getDataList((res) => {
       // console.log(2222)
         this.setData({
