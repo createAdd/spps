@@ -8,12 +8,19 @@ class IndexModel extends HTTP {
     this.request({
       url: 'classic/latest',
       success: (res) => {
-        // console.log(res)
+        // console.log(res.index)
+        wx.setStorageSync(this._getKey(res.index), res)
+          
         sCallBack(res)
 
       }
     })
     // return  // return出结果会是空的，因为request是异步函数
+  }
+  //第一步：按照规则生成key值
+  _getKey(artIndex) {
+    let key = `classic-${artIndex}`
+    return key
   }
 }
 export { IndexModel }

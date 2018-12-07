@@ -4,14 +4,27 @@ import { HTTP } from '../utils/http.js'
 class DownModel extends HTTP {
   down(artIndexs, aCallBack) {
     let url = artIndexs <= 2 ? "classic/" + artIndexs + "/next" : "classic/" + 7 + "/next"
-
-    this.request({
-      url,
-      success: (res) => {
-        aCallBack(res)
-      }
-    })
+    // 第二部
+    let key = this._getKey(artIndexs+1)
+// console.log(key)
+    let classic = wx.getStorageSync(key)
+if(!classic){
+  this.request({
+    url,
+    success: (res) => {
+      aCallBack(res)
+    }
+  })
+}else{
+  aCallBack(classic)
+}
+    
     // return  // return出结果会是空的，因为request是异步函数
+  }
+  // 第一步：按照规则生成key值
+  _getKey(artIndexs){
+    let key = `classic-${artIndexs}`
+    return key
   }
 }
 export { DownModel }
