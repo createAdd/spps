@@ -41,6 +41,17 @@ Component({
       this.triggerEvent('like', { // 自定义事件名称
         behavior
       })
+    },
+    up(){
+      this.triggerEvent('ups', { // 自定义事件名称
+        "name":"上一个"
+      })
+    }, 
+    
+    down() {
+      this.triggerEvent('downs', { // 自定义事件名称
+        "name": "下一个"
+      })
     }
   }
 })

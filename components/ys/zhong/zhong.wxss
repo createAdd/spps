@@ -32,7 +32,7 @@ image{
 .yszhong_4{
   width: 590rpx;
   margin:150rpx auto 0rpx;
-  font-size: 32rpx;
+  font-size: 34 rpx;
   color:#494949;
   
   /* position: absolute; */
