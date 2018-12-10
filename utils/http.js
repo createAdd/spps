@@ -23,7 +23,7 @@ class HTTP {
         let code = res.statusCode.toString()
         console.log(code)
         if (code.startsWith("2")) {
-          console.log(params.success)
+          // console.log(params.success)
           params.success(res.data)
           // console.log(res.data)
         } else {

@@ -15,6 +15,7 @@ Component({
     }
   },
 
+
   /**
    * 组件的初始数据
    */
@@ -23,6 +24,7 @@ Component({
     yesSrc: 'images/like.png', // 只有组件内部用到，因此无需开放
     noSrc: 'images/like@dis.png' // 无需开放
   },
+
 
   /**
    * 组件的方法列表
@@ -40,6 +42,17 @@ Component({
       // 通知父组件 - 子传父
       this.triggerEvent('like', { // 自定义事件名称
         behavior
+      })
+    },
+    up() {
+      this.triggerEvent('ups', { // 自定义事件名称
+        "name": "上一个"
+      })
+    },
+
+    down() {
+      this.triggerEvent('downs', { // 自定义事件名称
+        "name": "下一个"
       })
     }
   }

@@ -19,7 +19,6 @@
 </view>
 <view>
     <f-bottoms footer="{{datas.title}}"/>
-
 </view>
 
 <view class='footer'>

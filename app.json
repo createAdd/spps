@@ -1,8 +1,10 @@
 {
   "pages": [
     "pages/ysnn/ysnn",
-    "pages/booklist/index",
-    "pages/love/index"
+    "pages/love/index",
+    
+    "pages/booklist/index"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

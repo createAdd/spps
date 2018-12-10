@@ -24,12 +24,13 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
+  
   onLoad: function (options) {
     index.getDataList((res) => {
       // console.log(2222)
-        this.setData({
-          datas:res
-        })
+    this.setData({
+      datas:res
+    })
       console.log(this.data.datas)
     })
   },
