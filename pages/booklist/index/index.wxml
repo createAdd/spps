@@ -1,0 +1,5 @@
+<!--pages/booklist/index/index.wxml-->
+<view>
+  <header/>
+  <footer/>
+</view>

@@ -28,7 +28,7 @@ Component({
         })
         // this.data.num=
         wx.redirectTo ({
-          url: '../../pages/ysnn/ysnn'
+          url: '../../ysnn/ysnn'
         })
       } else if (ev.currentTarget.id === "1"){
         wx.setStorage({
@@ -36,7 +36,7 @@ Component({
           data: "1"
         })
         wx.redirectTo ({
-          url: '../../pages/booklist/index',
+          url: '../../pages/booklist/index/index',
         })
       } else if (ev.currentTarget.id === "2"){
         wx.setStorage({
@@ -44,7 +44,7 @@ Component({
           data: "2"
         })
         wx.redirectTo ({
-          url: '../../pages/love/index',
+          url: '../../love/index',
         })
       }
     }
