@@ -1,0 +1,26 @@
+/* components/booklist/header/header.wxss */
+.inp{
+  border:1px solid #ccc;
+  border-radius:100rpx;
+  text-align:center;
+  width:85%;
+  height:70rpx;
+  line-height:70rpx;
+  margin:0 auto;
+  color:#999999;
+  background:#f7f7f7;
+}
+.search{
+  margin-left:10%;
+}
+.header{
+  border-top:1px solid #f8f8f8;
+  padding:30rpx 0;
+  border-bottom:1px solid #f8f8f8;
+  position:relative;
+}
+.img{
+  width:5%;
+  position:absolute;
+  left:238rpx;top:50rpx;
+}

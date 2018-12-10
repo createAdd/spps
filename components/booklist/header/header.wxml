@@ -1,0 +1,7 @@
+<!--components/booklist/header/header.wxml-->
+<view class='header'>
+  <view class='inp'>
+    <view class="search" bindtap="search">搜索图片名称</view>    
+  </view>
+  <image src='images/1.jpg' mode='widthFix' class='img'/>
+</view>
