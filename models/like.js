@@ -15,7 +15,6 @@ class LikeModel extends HTTP {
         type: caregory
       },
       success:res=>{
-
       }
     })
     // return  // return出结果会是空的，因为request是异步函数

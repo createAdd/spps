@@ -1,4 +1,4 @@
-{
+     {
   "usingComponents":{
     "f-month":"/components/month/month",
     "f-like":"/components/like/likes",

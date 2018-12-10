@@ -6,5 +6,6 @@
     "f-zhong": "/components/ys/zhong/zhong",
     "footer": "/components/footer/footer",
     "f-bottoms": "/components/ys/bottoms/index"
-  }
+  },
+    "footer": "/components/footer/footer"
 }

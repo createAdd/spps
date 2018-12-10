@@ -1,8 +1,8 @@
 <!--components/ys/zhong/zhong.wxml-->
 <view class="yszhong">
   <image src='{{imgs}}'></image>
-  <view  class="yszhong_1">电</view>
-  <view class="yszhong_2">影</view>
+  <view  class="yszhong_1" >{{types}}</view>
+  <view class="yszhong_2">{{typess}}</view>
   <view class="yszhong_3">。</view>
   <view  class="yszhong_4">{{cons}}</view>
 </view>

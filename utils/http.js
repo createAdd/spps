@@ -21,9 +21,8 @@ class HTTP {
       },
       success: (res) => { // 成功
         let code = res.statusCode.toString()
-        console.log(code)
+        // console.log(code)
         if (code.startsWith("2")) {
-          // console.log(params.success)
           params.success(res.data)
           // console.log(res.data)
         } else {

@@ -1,6 +1,6 @@
 <!--components/bottoms/index.wxml-->
 <view class='btom'>
-   <view class='btom-a' bind:tap='up'><image src='./img/post.png'></image></view>
+   <view class='btom-a' bindtap="up"><image src='./img/post.png'></image></view>
    <view class='btom-s'>{{footer}}</view>
-   <view class='btom-a' bind:tap='down'><image src='./img/next.png'></image></view>
+   <view class='btom-a' bindtap="down"><image src='./img/next.png'></image></view>
 </view>

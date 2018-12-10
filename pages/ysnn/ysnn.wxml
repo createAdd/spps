@@ -15,10 +15,10 @@
   
 </view>
  <view class="yscon">
-    <f-zhong cons="{{datas.content}}" imgs="{{datas.image}}"/>
+    <f-zhong cons="{{datas.content}}" imgs="{{datas.image}}" types="{{datas.type}}"/>
 </view>
 <view>
-    <f-bottoms footer="{{datas.title}}"/>
+    <f-bottoms footer="{{datas.title}}" bind:ups="up" bind:downs="down"/>
 </view>
 
 <view class='footer'>

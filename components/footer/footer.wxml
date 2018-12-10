@@ -1,15 +1,15 @@
 <!--components/footer/footer.wxml-->
 <view class='ul'>
-  <view class='li  {{ num===0?"active":"" }}' bindtap='active' id="0"> 
-    <image src='{{ num===0 ? yesimg[0] : noimg[0] }}' class='img' mode='widthFix'/>
+  <view class='li  {{ num==="0"?"active":"" }}' bindtap='active' id="0"> 
+    <image src='{{ num==="0" ? yesimg[0] : noimg[0] }}' class='img' mode='widthFix'/>
     <view class='li_font'>流行</view>
   </view>
-  <view class='li {{ num===1?"active":"" }}' bindtap='active' id="1">
-    <image  src="{{ num===1 ? yesimg[1] : noimg[1] }}" class='img'  mode='widthFix'/>
+  <view class='li {{ num==="1"?"active":"" }}' bindtap='active' id="1">
+    <image  src="{{ num==='1' ? yesimg[1] : noimg[1] }}" class='img'  mode='widthFix'/>
     <view class='li_font'>书单</view>
   </view>
-  <view class='li {{ num===2?"active":"" }}' bindtap='active' id="2">
-    <image  src="{{ num===2 ? yesimg[2] : noimg[2] }}" class='img'  mode='widthFix'/>
+  <view class='li {{ num==="2"?"active":"" }}' bindtap='active' id="2">
+    <image  src="{{ num==='2' ? yesimg[2] : noimg[2] }}" class='img'  mode='widthFix'/>
     <view class='li_font'>喜欢</view>
   </view>
 </view>
