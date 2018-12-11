@@ -1,11 +1,15 @@
 {
   "pages": [
+    
+    "pages/booklist/index/index",
+    "pages/booklist/xq/xq",
+    
+    
     "pages/ysnn/ysnn",
     "pages/booklist/search/search",
-    "pages/booklist/index/index",
     "pages/love/index",
     "pages/search/index"
-  ],
+],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

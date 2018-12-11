@@ -1,18 +1,36 @@
 // pages/booklist/index/index.js
+import { BooklikeModel } from "../../../models/booklike.js"
+let booklikes = new BooklikeModel()
+
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    booklike:[]
   },
-
+  booklist(ev){
+    // console.log(ev.detail.id)
+    let ids = ev.detail.id
+    wx.navigateTo({ 
+      url: "/pages/booklist/xq/xq?id="+ids
+    })
+    
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    booklikes.booklike((res)=>{
+      // console.log(res)
+      // console.log(res)
 
+      this.setData({
+        booklist:res
+      })
+    })
   },
 
   /**

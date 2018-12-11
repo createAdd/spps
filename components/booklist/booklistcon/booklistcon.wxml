@@ -1,0 +1,17 @@
+<!--components/booklist/booklistcon.wxml-->
+<view class="listcon">
+    <view class="listjx">精选</view>
+    <view class="listlikecon">
+        <view  class="listlikecon_1"> 
+            
+            <view class="listlikecon_2" wx:for="{{booklist}}" wx:key="index" bindtap='xiang' data-index="{{item.id}}">
+                <view class="listlikecon_img">
+                  <image src="{{item.image}}"></image>
+                </view>
+                <view  class="listlikecon_tit">{{item.title}}</view>
+                <view class="listlikecon_ti2">{{item.author}}</view>
+                <view class="listlikecon_ti3"><view class="listlikecon_ti4">{{item.fav_nums}}</view>喜欢·<view class="listlikecon_ti4">{{item.like_status}}</view>评论</view>
+            </view>
+        </view>
+    </view>
+</view>

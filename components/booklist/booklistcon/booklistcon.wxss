@@ -1,0 +1,74 @@
+/* components/booklist/booklistcon.wxss */
+.listcon{
+  width:100%;
+  height:950rpx;
+  padding-top:30rpx; 
+  box-sizing: border-box;
+  background:#f9f9f9;
+}
+.listjx{
+  width:100%;
+  text-align: center
+}
+.listlikecon{
+  width:100%;
+  height:840rpx;
+  margin-top: 30rpx;
+  overflow: auto;
+
+}
+.listlikecon_1{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.listlikecon_2{
+  width:260rpx;
+  height:450rpx;
+  margin-left: 90rpx;
+  margin-bottom: 60rpx;
+  box-sizing: border-box;
+  background:white;
+  box-shadow: 1px 10px  10px #f3f3f3;
+}
+.listlikecon_img{
+  width:100%;
+  height:300rpx;
+  background:#f9f9f9;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden; 
+}
+image{
+  width:100%;
+  height:100%;
+}
+.listlikecon_tit{
+  font-size: 30rpx;
+  width:85%;
+  margin:10rpx auto 0rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.listlikecon_ti2{
+  font-size: 24rpx;
+  width:85%;
+  margin:0 auto;
+  color:#bfbfbf;
+   overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.listlikecon_ti3{
+  font-size: 24rpx;
+  color:#bfbfbf;
+  width:85%;
+  display:flex;
+  justify-content: flex-end;
+  margin:15rpx auto 0rpx;
+
+}
+.listlikecon_ti4{
+  display: inline;
+  margin: 0rpx 5rpx;
+}
