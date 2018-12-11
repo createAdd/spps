@@ -16,6 +16,9 @@
 </view>
  <view class="yscon">
     <f-zhong cons="{{datas.content}}" imgs="{{datas.image}}" types="{{datas.type}}"/>
+    <view class='sdd' wx:if='{{datas.type == 100 ?  false : ""|| datas.type == 200 ? true : "" || datas.type == 300 ? false : ""}}'>
+       <f-play bind:shows="shows" bind:showp="showp"/>
+    </view>
 </view>
 <view>
     <f-bottoms footer="{{datas.title}}" bind:ups="up" bind:downs="down"/>
