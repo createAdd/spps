@@ -13,13 +13,13 @@
   /* margin-top: 20rpx; */
 }
 .yshearig_3{
-  font-size: 18rpx;
-  color:#c5c5c5;
+  font-size: 20rpx;
+  color:#ccc;
   /* border:1px solid black; */
   display: inline-block;
   /* margin-bottom: 30rpx; */
   position: absolute;
-  bottom: 5rpx;
+  bottom: -13rpx;
   left:35rpx;
 }
 

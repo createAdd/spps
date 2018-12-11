@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/ysnn/ysnn",
     
+    "pages/ysnn/ysnn",
+    "components/play/index",
     "pages/booklist/index/index",
     "pages/booklist/xq/xq",
     

@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "header": "/components/booklist/header/header"
+    "header": "/components/booklist/search/header/header",
+    "content":"/components/booklist/search/content/index"
   }
 }

@@ -1,18 +1,58 @@
 // pages/booklist/search/search.js
+import { HotModel } from "../../../models/booklist/search/hot.js"
+import { SearchModel } from "../../../models/booklist/search/search.js"
+let search = new SearchModel()
+let hot = new HotModel()
 Page({
-
+ 
   /**
    * 页面的初始数据
    */
   data: {
-
+    hot:[],
+    is:true,
+    search:[],
+    val:""
   },
-
+  search(ev){
+    let val = ev.detail.val
+    if(val===""){
+      this.setData({
+        is:true
+      })
+    }else{
+      search.search(val, (res) => {
+        console.log(res.books)
+        this.setData({
+          is: false,
+          search: res.books
+        })
+      })
+    }
+  },
+  getval(ev){
+    console.log(ev.detail.val)
+    let val = ev.detail.val
+    this.setData({
+      val:val
+    })
+    search.search(val, (res) => {
+      console.log(res.books)
+      this.setData({
+        is: false,
+        search: res.books
+      })
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    hot.gethotList((res) => {
+      this.setData({
+        hot: res.hot
+      })
+    })
   },
 
   /**

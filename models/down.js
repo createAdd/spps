@@ -13,7 +13,7 @@ class DownModel extends HTTP {
     }
     let key = `classic-${ke}`
     let classic = wx.getStorageSync(key)
-
+    //  console.log(key)
       if(!classic){
         this.request({
           url,
