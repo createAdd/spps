@@ -1,18 +1,45 @@
 // pages/love/index.js
+import { Love } from "../../models/love.js"
+
+let love = new Love()
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    dataList:{},
+    types: ['']
   },
-
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    love.getDataLists((res) => {
+      this.setData({
+        dataList: res
+      })
+      console.log(this.data.dataList)
+      for(let i in res){
+        // console.log(res[i])
+        if (res[i].type==100) {
+          this.setData({
+            types: "电影"
+          })
+        } else if (res[i].type==200) {
+          this.setData({
+            types: "音乐"
+          })
+        } else if (res[i].type==300) {
+          this.setData({
+            types: "句子"
+          })
+        }
+        console.log(this.data.types)
+      }
+      
+    })
   },
 
   /**

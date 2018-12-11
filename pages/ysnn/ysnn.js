@@ -3,12 +3,16 @@ import { IndexModel } from "../../models/ysnn.js"
 import { LikeModel } from "../../models/like.js"
 import { UpModel } from "../../models/up.js"
 import { DownModel } from "../../models/down.js"
+import { Shows } from "../../models/shows.js"
+import { Showp } from "../../models/showp.js"
 
 let index = new IndexModel()
 let likeMo = new LikeModel()
 let upMo = new UpModel()
 let downMo = new DownModel()
-
+let shows = new Shows()
+let showp = new Showp()
+const myaudio = wx.createInnerAudioContext();
 const app = getApp()
 Page({
 
@@ -16,7 +20,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-      datas:{}
+      datas:{},
+      dww:""
   },
   likeClick(ev){ 
     // console.log(ev)
@@ -49,17 +54,36 @@ Page({
     //   console.log(res)
     // })
   },
+  shows(ev) {//暂停
+    let indexs = this.data.datas.index
+    console.log(indexs)
+    shows.getDataListq(indexs, res => {
+      console.log(res)
+      myaudio.src = res.url
+      myaudio.pause();
+    })
+  },
+  
+  showp(ev) {//播放
+    let indexs = this.data.datas.index
+    console.log(indexs)
+    showp.getDataListt(indexs, res => {
+      console.log(res)
+      myaudio.src =res.url
+      myaudio.play();
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
+  
   onLoad: function (options) {
     wx.setStorageSync("num", "0")
     index.getDataList((res) => {
-      // console.log(2222)
-        this.setData({
-          datas:res
-        })
-      // console.log(this.data.datas)
+      // console.log(res)
+    this.setData({
+      datas:res
+    })
     })
 
   },

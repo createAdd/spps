@@ -1,5 +1,39 @@
 <!--pages/love/index.wxml-->
-<view>
-  
-  <footer/>
+<view class='llink'>
+   <view class='link-a'>
+       <image class='link-a-imga' src='./img/link.jpg'></image>
+       <view class='link-a-b'>
+          <image src='./img/a.jpg'></image>
+          <text>秦狗蛋</text>
+       </view>
+       <view class='link-a-c'>
+          <view>
+              <image src="./img/sa.jpg"></image>
+              <text>关于我们</text>
+          </view>
+          <view>
+             <image src="./img/sa.jpg"></image>
+              <text>我的书单</text>
+          </view>
+       </view>
+   </view>
+   <view class='link-b'>
+       <view class='link-b-a'>喜欢</view>
+       <view class='link-c'>
+          <view class='link-c-a' wx:for="{{dataList}}" wx:key="index">
+              <view class='link-c-b'>
+                 <view class='link-c-b-a'>{{types}}</view>
+                 <f-like count="{{item.fav_nums}}"/>
+              </view>
+              <view class='link-c-c'>
+                 <image src='{{item.image}}'></image>
+              </view>
+              <view class='link-c-d'>{{item.content}}</view>
+          </view>
+       </view>
+   </view>
+   <view class='botw'>
+    <footer />
+  </view>
 </view>
+

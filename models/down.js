@@ -5,26 +5,28 @@ class DownModel extends HTTP {
   down(artIndexs, aCallBack) {
     let url = artIndexs <= 2 ? "classic/" + artIndexs + "/next" : "classic/" + 7 + "/next"
     // 第二部
-    let key = this._getKey(artIndexs+1)
-// console.log(key)
-    let classic = wx.getStorageSync(key)
-if(!classic){
-  this.request({
-    url,
-    success: (res) => {
-      aCallBack(res)
+    let ke = artIndexs
+    if (ke == 8) {
+      ke = 8
+    } else {
+      ke = artIndexs + 1
     }
-  })
-}else{
-  aCallBack(classic)
-}
-    
+    let key = `classic-${ke}`
+    let classic = wx.getStorageSync(key)
+    //  console.log(key)
+      if(!classic){
+        this.request({
+          url,
+          success: (res) => {
+            wx.setStorageSync(key, res)
+            aCallBack(res)
+          }
+        })
+      }else{
+        aCallBack(classic)
+      }
+          
     // return  // return出结果会是空的，因为request是异步函数
-  }
-  // 第一步：按照规则生成key值
-  _getKey(artIndexs){
-    let key = `classic-${artIndexs}`
-    return key
   }
 }
 export { DownModel }
