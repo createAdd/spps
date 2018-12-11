@@ -1,0 +1,44 @@
+/* components/booklist/search/content/index.wxss */
+.box{
+  font-size:32rpx;
+}
+.nav{
+  padding:0 20rpx;
+}
+.border{
+  margin-top:30rpx;
+  margin-bottom:30rpx;
+  height:35rpx;
+  line-height:35rpx;
+  border-left:12rpx solid #000000;
+  padding-left:26rpx;
+}
+.forbox{
+  padding:0 46rpx;
+  display:flex;
+  flex-wrap:wrap;
+  color:#666666;
+}
+.forbox_item{
+  padding:14rpx;
+  margin-top:10rpx;
+  margin-bottom:10rpx;
+  margin-left:30rpx;
+  background:#f7f7f7;
+}
+.itemimg{
+  width:12%;
+}
+.searchfor{
+  display:flex;
+  padding:35rpx 20rpx;
+  border-top:1px solid #f8f8f8;
+}
+.smbox{
+  margin-left:20rpx;
+  font-size:34rpx;
+  line-height:50rpx;
+}
+.smobx_font{
+  font-size:26rpx;
+}

@@ -1,0 +1,35 @@
+.inp{
+  border:1px solid #ccc;
+  border-radius:100rpx;
+  width:75%;
+  color:#999999;
+  background:#f7f7f7;
+}
+.search{
+  margin-left:20%;
+  font-size:32rpx;
+  height:70rpx;
+  line-height:70rpx;
+}
+.header{
+  border-top:1px solid #f8f8f8;
+  padding:30rpx 20rpx;
+  position:relative;
+  display:flex;
+  justify-content:space-between;
+}
+.img{
+  width:5%;
+  position:absolute;
+  left:65rpx;top:50rpx;
+}
+.inp-font{
+  text-align:center;
+  border:1px solid #696969;
+  width:20%;
+  border-radius:50rpx;
+  height:70rpx;
+  line-height:70rpx;
+  font-size:32rpx;
+  color:#666666;
+}

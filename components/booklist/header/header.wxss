@@ -12,6 +12,7 @@
 }
 .search{
   margin-left:10%;
+  font-size:32rpx;
 }
 .header{
   border-top:1px solid #f8f8f8;
