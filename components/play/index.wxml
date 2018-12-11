@@ -5,6 +5,7 @@
             <image src='{{imgw}}' class="playimgs" wx:if="{{!imgt}}"></image>
         </view>
         <view class="yshearig_a" bind:tap='now'>
+           <!-- 。。。。。。。。。。。。。 -->
             <image src='{{imgp}}' class="playimgs" wx:if="{{imgt}}"></image>
         </view>
  </block>
