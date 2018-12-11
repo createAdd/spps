@@ -1,0 +1,7 @@
+<view class='header'>
+  <view class='inp'>
+    <input type='text' class="search" placeholder="搜索图书名称" bindinput="search" value="{{ val }}" bindblur="search"/>
+  </view>
+  <view class='inp-font' bindtap='cancel'>取消</view>
+  <image src='images/1.jpg' mode='widthFix' class='img'/>
+</view>

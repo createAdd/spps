@@ -3,12 +3,14 @@
     
     "pages/ysnn/ysnn",
     "components/play/index",
+    "pages/booklist/index/index",
+    "pages/booklist/xq/xq",
+    
     
     "pages/booklist/search/search",
-    "pages/booklist/index/index",
     "pages/love/index",
     "pages/search/index"
-  ],
+],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

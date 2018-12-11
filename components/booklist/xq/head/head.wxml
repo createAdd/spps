@@ -1,0 +1,4 @@
+<!--components/booklist/xq/head/head.wxml-->
+<view class="hade">
+  <input type="text" class="heatype" placeholder='搜索图书名称'/>
+</view>

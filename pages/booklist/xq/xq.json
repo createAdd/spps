@@ -1,0 +1,8 @@
+{
+"usingComponents": {
+  "head": "/components/booklist/xq/head/head",
+  "inner": "/components/booklist/xq/inner/inner",
+  "xqfooter": "/components/booklist/xq/xqfooter/xqfooter"
+}
+
+}

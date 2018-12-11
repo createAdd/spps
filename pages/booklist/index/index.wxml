@@ -1,5 +1,6 @@
 <!--pages/booklist/index/index.wxml-->
 <view>
   <header/>
+ <booklistcon booklist="{{booklist}}" bind:booklikes="booklist"/>
   <footer/>
 </view>

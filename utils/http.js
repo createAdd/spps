@@ -8,6 +8,8 @@ import { config} from '../config.js'
 // 请求类
 class HTTP {
   request(params) {
+console.log(params)
+
     if (!params.method) {
       params.method = 'GET' // 如果没传默认GET
     }

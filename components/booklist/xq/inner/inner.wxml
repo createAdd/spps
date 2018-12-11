@@ -1,0 +1,50 @@
+<!--components/booklist/xq/inner/inner.wxml-->
+<view class="inner">
+    <view  class="innter">
+        <view class="inner_one">
+            <view class="inner_one_o1"><image src="{{list.image}}"></image></view>
+            <text class="inner_one_o2">{{list.title}}</text>
+            <text class="inner_one_o3">{{list.author}}</text>
+
+        </view>
+        <view class="inner_twos">
+            <view class="inner_twos_1">
+                <text class="inner_twos_2"  wx:for="{{pllist}}" wx:key="index">{{item.content}}<text class="inner_twos_3">+{{item.nums}}</text></text>
+                
+
+            </view>
+        </view>
+        <view class="inners-three">
+            <text class="inners-three_one">内容简介</text>
+           <view class="lingjia">
+            <view class="inners-three_two">{{list.summary}}</view>
+           </view>
+        
+        </view>
+        <view class="inner-four">
+            <text class="inners-three_one">书本信息</text>
+            <view  class="inners-four1">
+                <view  class="inners-four2">
+                    <view  class="inners-four3">出版社</view>
+                    <view  class="inners-four4">{{list.publisher}}</view>
+                </view>
+                <view  class="inners-four2">
+                    <view  class="inners-four3">出版年</view>
+                    <view  class="inners-four4">{{list.pubdate}}</view>
+                </view>
+                <view  class="inners-four2">
+                    <view  class="inners-four3">页数</view>
+                    <view  class="inners-four4">{{list.pages}}</view>
+                </view>
+                <view  class="inners-four2">
+                    <view  class="inners-four3">定价</view>
+                    <view  class="inners-four4">{{list.price}}</view>
+                </view>
+                <view  class="inners-four2">
+                    <view  class="inners-four3">精装</view>
+                    <view  class="inners-four4">{{list.binding}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

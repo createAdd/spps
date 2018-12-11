@@ -23,7 +23,7 @@ Page({
       datas:{},
       dww:""
   },
-  likeClick(ev){
+  likeClick(ev){ 
     // console.log(ev)
     let behavior=ev.detail.behavior
     let id = this.data.datas.id

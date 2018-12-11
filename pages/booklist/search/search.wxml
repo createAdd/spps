@@ -1,5 +1,5 @@
 <!--pages/booklist/search/search.wxml-->
 <view>
-  <header/>
-
+  <header bind:search="search" val="{{ val }}" is="{{ is }}"/>
+  <content hot="{{ hot }}" search="{{ search }}" is="{{ is }}" bind:getval="getval"/>
 </view>

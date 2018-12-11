@@ -1,0 +1,28 @@
+<!--components/booklist/search/content/index.wxml-->
+<view wx:if="{{ is }}">
+  <view class="box">
+    <view class='nav'>
+      <view class='border'>历史搜索</view>
+    </view>
+    <view class='forbox'>
+      <view class='forbox_item' wx:for="{{ hot }}" wx:key="{{index}}">{{ item }}</view>
+    </view>
+  </view>
+  <view class="box">
+    <view class='nav'>
+      <view class='border'>热门搜索</view>
+    </view>
+    <view class='forbox'>
+      <view class='forbox_item' wx:for="{{ hot }}" wx:key="{{index}}" bindtap='getval'>{{ item }}</view>
+    </view>
+  </view>
+</view>
+<view wx:if="{{ !is }}">
+  <view wx:for="{{search}}" wx:key="{{ index }}" class='searchfor'>
+    <image src="{{ item.image }}" class='itemimg' mode='widthFix'/>
+    <view class='smbox'>
+      <view>{{ item.title }}</view>
+      <view class='smobx_font'>{{ item.author[0] }}</view>
+    </view>
+  </view>
+</view>

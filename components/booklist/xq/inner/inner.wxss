@@ -1,0 +1,165 @@
+/* components/booklist/xq/inner/inner.wxss */
+.inner{
+    width:100%;
+    height:z1000rpx;
+    margin-top: 20rpx;
+    padding-bottom: 30rpx;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.innter{
+  width:100%;
+}
+.inner_one{
+  width:100%;
+  height:490rpx;
+  background:white;
+  /* margin-top:20rpx; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inner_one_o1{
+  width: 200rpx;
+  height:300rpx;
+  background:white;
+  margin:0 auto;
+  box-shadow:10px 10px 20px #f3f3f3;
+
+  
+}
+.inner_one_o2{
+  display: inline-block;
+  margin:20rpx auto 0;
+  font-size: 34rpx;
+
+}
+.inner_one_o3{
+  display: inline-block;
+  margin:20rpx auto 0;
+  font-size: 24rpx;
+  color:#cdcdcd;
+  margin-top: 10rpx;
+}
+.inner_twos{
+  width:100%;
+  height:410rpx;
+  margin-top: 20rpx;
+  background:white;
+  overflow: auto;
+  box-sizing: border-box;
+  padding-bottom: 20rpx;
+  border-bottom: 10px solid white;
+
+}
+.inner_twos_1{
+  width:100%;
+  background:white;
+  padding-top: 20rpx;
+  padding-bottom: 50rpx;
+  /* display: flex;
+  flex-wrap: wrap; */
+
+}
+.inner_twos_2{
+  display: inline-block;
+  height:70rpx;
+  padding: 0rpx 40rpx;
+  font-size: 30rpx;
+  border-radius: 25px;
+  line-height: 70rpx;
+  background: #f7f7f7;
+  margin-left: 30rpx;
+  color:#666666;
+  margin-bottom: 20rpx;
+
+}
+.inner_twos_2:nth-child(2){
+  background:#eefaff;
+}
+.inner_twos_2:nth-child(1){
+  background:#fffadd;
+}
+.inner_twos_3{
+  margin-left: 10rpx;
+}
+.inners-three{
+  width:100%;
+  height:350rpx;
+  padding: 20rpx 10rpx;
+  background:white;
+  margin-top: 20rpx;
+}
+.inners-three_one{
+  font-size:36rpx;
+  text-align: center;
+  display: block;
+  margin:0 auto;
+  box-sizing: border-box;
+  
+
+}
+.lingjia{
+width:80%;
+  height:300rpx;
+  color:#666666;
+  margin:20rpx auto 0;
+  padding: 10rpx 10rpx;
+  font-size: 30rpx;
+  background:white;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.inners-three_two{
+  width:100%;
+  background:white;
+}
+  
+image{
+  width:100%;
+  height:100%;
+}
+.inner-four{
+  width:100%;
+  height:350rpx;
+  background:white;
+  margin-top: 20rpx;
+  padding-top: 20rpx;
+  box-sizing: border-box;
+  margin-bottom: 100rpx;
+
+}
+.inners-four1{
+  padding: 15rpx;
+  background:white;
+  box-sizing: border-box;
+
+}
+.inners-four2{
+  width:100%;
+  display: flex;
+  height:50rpx;
+  margin-top:10rpx;
+}
+.inners-four3{
+  width:250rpx;
+  height:50rpx;
+  background:white;
+  font-size: 30rpx;
+  color:#cdcdcd;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.inners-four4{
+  flex-grow: 1;
+  height:50rpx;
+  display: flex;
+  align-items: center;
+
+  background:white;
+  font-size: 34rpx;
+  color:#8c8c8c;
+  padding-left: 40rpx;
+  
+}

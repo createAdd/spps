@@ -1,0 +1,7 @@
+<view class="xqxq"> 
+
+<head />
+<inner inners="{{list}}" plists="{{plist}}"/>
+<view class="xqfooter"><xqfooter like="{{like}}" count="{{like.fav_nums}}"   bind:likes="likeClick" bind:seach="search" value="{{value}}"/></view>
+
+</view>

@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "footer": "/components/footer/footer",
-    "header": "/components/booklist/header/header"
+    "header": "/components/booklist/header/header",
+    "booklistcon": "/components/booklist/booklistcon/booklistcon"
   }
 }
