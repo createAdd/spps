@@ -1,6 +1,6 @@
 <!--components/booklist/xq/xqfooter/xqfooter.wxml-->
 <view class="xqfooter">
-    <input class='xqfooter_1' placeholder='请输入内容' bindinput='txt' bindconfirm="search"  maxlength='12'>{{values}}</input>
+    <input class='xqfooter_1' placeholder='请输入内容 ' bindinput='txt' bindconfirm="search"  maxlength='12'>{{values}}</input>
     <view class="xqfooter_2"> 
       <image src='{{likes?yeslike:nolike}}' bind:tap='likeclick' class="xqfooter_3"></image>
       <view class="xqfooter_4">{{count}}</view>

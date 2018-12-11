@@ -1,11 +1,11 @@
 {
   "pages": [
+    "pages/ysnn/ysnn",
     
     "pages/booklist/index/index",
     "pages/booklist/xq/xq",
     
     
-    "pages/ysnn/ysnn",
     "pages/booklist/search/search",
     "pages/love/index",
     "pages/search/index"
