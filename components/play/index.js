@@ -40,10 +40,10 @@ Component({
   data: {
     tyeps: "",
     tyepss: "",
-    imgs:"./img/plays.png",
-    imgw:"./img/play.png"
+    imgp:"./img/plays.png",
+    imgw:"./img/play.png",
+    imgt:false
   },
-
   /**
    * 组件的方法列表
    */
@@ -52,26 +52,23 @@ Component({
       // this.properties.sws = false
       // console.log(1)
       let that = this
-      if (this.data.showe == true) {
         that.setData({
-          showw:true,
-          showe:false
+          imgt:false
         })
       this.triggerEvent('shows', { // 自定义事件名称
-
+        
       })
-      }
+      // }
     },
     tow() {
       // this.properties.sws = true
       // console.log(this.properties.sws)
       let that=this
-      if(this.data.showw==false){
-        that.setData({
-        showw: true,
-        showe:false
+      // if(this.data.showw==false){
+      that.setData({
+        imgt:true
       })
-      }
+      // }
       this.triggerEvent('showp', { // 自定义事件名称
 
       })

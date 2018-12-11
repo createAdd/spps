@@ -1,8 +1,10 @@
 <!--components/play/index.wxml-->
 <block >
   <!-- wx:if="{{ssws==true}}" -->
-        <view class="yshearig_a">
-            <image src='{{imgs}}' class="playimgs" bind:tap='now'></image>
-            <image src='{{imgw}}' class="playimgs" bind:tap='tow'></image>
+        <view class="yshearig_a" bind:tap='tow'>
+            <image src='{{imgw}}' class="playimgs" wx:if="{{!imgt}}"></image>
+        </view>
+        <view class="yshearig_a" bind:tap='now'>
+            <image src='{{imgp}}' class="playimgs" wx:if="{{imgt}}"></image>
         </view>
  </block>

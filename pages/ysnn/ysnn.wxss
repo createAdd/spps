@@ -37,6 +37,6 @@
 }
 .sdd image{
   position: absolute;
-  left: 40%;
-  top:35%;
+  left: 45%;
+  top:40%;
 }

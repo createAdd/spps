@@ -46,19 +46,6 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    now() {
-      // this.properties.sws = false
-      // console.log(1)
-      this.triggerEvent('shows', { // 自定义事件名称
-         
-      })
-    },
-    tow() {
-      // this.properties.sws = true
-      // console.log(this.properties.sws)
-      this.triggerEvent('showp', { // 自定义事件名称
-
-      })
-    }
+    
   }
 })
